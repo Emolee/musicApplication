@@ -1,0 +1,105 @@
+/* You can add global styles to this file, and also import other style files */
+/*used w3schools for some of the search bar styling. sources will be provided.
+/*https://www.w3schools.com/howto/howto_css_searchbar.asp*/
+/**/
+div {
+  font-family: "Cairo", sans-serif;
+}
+
+h4 {
+  font-family: "Cairo", sans-serif;
+}
+
+h5 {
+  font-family: "Cairo", sans-serif;
+}
+
+.image {
+  width: 150px;
+  height: 150px;
+  alignment: left;
+  border-radius: 50%;
+}
+
+.myNavigationBar {
+  overflow: hidden;
+  background-color: #e9e9e9;
+}
+
+.footbar {
+  background-color: #e9e9e9;
+  padding: 4px;
+}
+
+.myNavigationBar a {
+  float: left;
+  display: block;
+  color: black;
+  font-family: "Cairo", sans-serif;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.myNavigationBar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.myNavigationBar a.active {
+  background-color: darkgrey;
+  color: white;
+}
+
+.myNavigationBar .mySearch {
+  float: right;
+}
+
+.myNavigationBar input[type="text"] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.myNavigationBar .mySearch button {
+  float: right;
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+button {
+  padding: 7px;
+}
+
+.myNavigationBar .mySearch button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .myNavigationBar .mySearch {
+    float: none;
+  }
+
+  .myNavigationBar a,
+  .myNavigationBar input[type="text"],
+  .myNavigationBar .mySearch button {
+    float: none;
+    display: block;
+    font-family: "Cairo", sans-serif;
+    text-align: left;
+    width: 100%;
+    margin: 0;
+    padding: 14px;
+  }
+
+  .myNavigationBar input[type="text"] {
+    border: 1px solid #ccc;
+  }
+} /* You can add global styles to this file, and also import other style files */
